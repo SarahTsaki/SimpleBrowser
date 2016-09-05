@@ -1,0 +1,62 @@
+<!-- Made using polymer-designer.appspot.com -->
+
+<link rel="import" href="../paper-input/paper-input.html">
+<link rel="import" href="../core-icons/core-icons.html">
+<link rel="import" href="../core-icons/av-icons.html">
+<link rel="import" href="../paper-fab/paper-fab.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #section {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(221, 221, 221);
+      }
+      #paper-toolbar {
+        position: absolute;
+        width: 100%;
+        background-color: rgb(85, 85, 85);
+      }
+      #paper-fab {
+        left: 94%;
+      }
+      #paper-input {
+        width: 95%;
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        background-color: rgb(255, 255, 255);
+      }
+      #iframe {
+        position: absolute;
+        top: 59px;
+        width: 100%;
+        height: 89%;
+      }
+    </style>
+    <section id="section">
+      <paper-toolbar id="paper-toolbar">
+        <paper-input committedvalue="{{ currentadress }}" id="paper-input"></paper-input>
+        <paper-fab icon="settings" id="paper-fab"></paper-fab>
+      </paper-toolbar>
+      <iframe src="{{ currentadress }}" id="iframe"></iframe>
+    </section>
+  </template>
+
+  <script>
+
+    Polymer({
+      currentadress: ''
+    });
+
+  </script>
+
+</polymer-element>
