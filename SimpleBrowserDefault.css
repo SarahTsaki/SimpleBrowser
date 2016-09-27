@@ -1,0 +1,218 @@
+      #core_drawer_panel {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+      }
+      #section {
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        background-color: rgb(250, 250, 250);
+      }
+      #section1 {
+        height: 100%;
+        box-sizing: border-box;
+        background-color: rgb(221, 221, 221);
+      }
+      #core_card {
+        position: absolute;
+        width: 240px;
+        height: 80px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 10px;
+        top: 10px;
+        background-color: {{ themecolor }};
+      }
+      #input {
+        padding: 15px;
+        width: 80%;
+        left: 10px;
+        position: absolute;
+        top: 25px;
+      }
+      #core_card1 {
+        position: absolute;
+        width: 240px;
+        height: 80px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 10px;
+        top: 100px;
+        background-color: {{ themecolor }};
+      }
+      #core_selector {
+        width: 100%;
+        height: 50px;
+        left: 1220px;
+        top: 480px;
+      }
+      #paper_radio_group {
+        top: 25px;
+        position: absolute;
+        left: 35px;
+      }
+      #core_toolbar {
+        right: 0px;
+        left: 0px;
+        color: rgb(255, 255, 255);
+        fill: rgb(255, 255, 255);
+        position: absolute;
+        background-color: {{ themecolor }};
+      }
+      #input1 {
+        padding: 15px;
+        position: relative;
+        width: 67%;
+        background-color: rgb(255, 255, 255);
+      }
+      #paper_fab {
+        position: absolute;
+        left: 94%;
+      }
+      #iframe {
+        position: absolute;
+        top: 64px;
+        width: 100%;
+        height: 87%;
+        left: 0px;
+      }
+      #paper_icon_button {
+        position: relative;
+      }
+      #paper_icon_button1 {
+        position: relative;
+      }
+      #paper_icon_button2 {
+        position: relative;
+      }
+      #paper_icon_button3 {
+        position: relative;
+      }
+      #core_card2 {
+        position: absolute;
+        width: 240px;
+        height: 80px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        left: 10px;
+        top: 190px;
+        background-color: rgb(255, 255, 255);
+      }
+      #paper_icon_button4 {
+        left: 0px;
+        position: absolute;
+      }
+      #input2 {
+        padding: 15px;
+        width: 80%;
+        left: 10px;
+        position: absolute;
+        top: 25px;
+      }
+      #core_drawer_panel1 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+      }
+      #section2 {
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        background-color: {{ themecolor }};
+      }
+      #section3 {
+        height: 100%;
+        box-sizing: border-box;
+        background-color: rgb(221, 221, 221);
+      }
+      #div1 {
+        left: 4px;
+        top: 10px;
+        position: absolute;
+      }
+      #google_map {
+        width: 400px;
+        height: 400px;
+        display: block;
+        left: 420px;
+        top: 16px;
+        position: absolute;
+      }
+      #speech_mic {
+        left: 20px;
+        top: 16px;
+        position: absolute;
+      }
+      #input3 {
+        padding: 15px;
+        left: 60px;
+        top: 16px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+      }
+      #iframe1 {
+        position: absolute;
+        left: 20px;
+        height: 50%;
+        width: 270px;
+        top: 66px;
+      }
+      #core_header_panel {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      #core_toolbar1 {
+        color: rgb(255, 255, 255);
+        background-color: {{ themecolor }};
+      }
+      #div2 {
+        left: 50px;
+        position: absolute;
+      }
+      #section4 {
+        height: 1000px;
+        background: linear-gradient(rgb(214, 227, 231), lightblue);
+      }
+      #paper_calculator {
+        width: 400px;
+        height: 560px;
+        left: 10px;
+        top: 371px;
+        position: absolute;
+      }
+      #paper_icon_button5 {
+        position: relative;
+      }
+      #smoothie_chart {
+        left: 530px;
+        top: 883px;
+        position: absolute;
+      }
+      #iframe2 {
+        position: absolute;
+        left: 420px;
+        top: 430px;
+        width: 400px;
+        height: 200px;
+      }
+      #core_pages {
+        width: 100%;
+        height: 90%;
+        border: 1px solid silver;
+        left: 0px;
+        top: 8%;
+        position: absolute;
+      }
+      #paper_tabs {
+        width: 100%;
+        background-color: {{ themecolor }};
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
